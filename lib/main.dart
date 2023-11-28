@@ -12,7 +12,7 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // [Step2]: Implement the title row
+    // Step2: Implement the title row
     //
     // テキストやスターアイコンを横に並べた塊をTitleSectionという塊で表現します。
     // buildメソッドの中にこのように記述します。Container配下に複雑なWidgetがネストされていますが、
@@ -57,7 +57,7 @@ class MainApp extends StatelessWidget {
       ),
     );
 
-    // [Step3]: Implement the button row
+    // Step3: Implement the button row
     //
     // アイコンとテキストを縦に並べた塊をButtonSectionという塊で表現します。
     // Step2とは違い`=`で代入した変数形式とは異なり、`buildButtonColumn`というメソッドで実装されています。
@@ -89,7 +89,7 @@ class MainApp extends StatelessWidget {
     // 一旦スルーで大丈夫です。[Colors.blue]など、お好きなカラーを指定しても構いません。
     Color color = Theme.of(context).primaryColor;
 
-    // [Step3]: Implement the button row
+    // Step3: Implement the button row
     //
     // 上記で定義した`buildButtonColumn`を呼び出して、`buildButtonColumn`を並べた塊をButtonSectionという塊で表現します。
     Widget buttonSection = Row(
@@ -106,7 +106,7 @@ class MainApp extends StatelessWidget {
       ],
     );
 
-    // [Step4]: Implement the text section
+    // Step4: Implement the text section
     //
     // テキストを縦に並べた塊をTextSectionという塊で表現します。
     // ref. https://docs.flutter.dev/ui/layout/tutorial#step-4-implement-the-text-section

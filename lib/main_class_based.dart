@@ -34,7 +34,7 @@ class MainApp extends StatelessWidget {
   }
 }
 
-/// [Step2]: Implement the title row
+/// Step2: Implement the title row
 ///
 /// [TitleSection]というWidgetをクラスで作成しなおしました。
 class TitleSection extends StatelessWidget {
@@ -82,7 +82,7 @@ class TitleSection extends StatelessWidget {
   }
 }
 
-/// [Step3]: Implement the button row
+/// Step3: Implement the button row
 ///
 /// [ButtonSection]というWidgetをクラスで作成しなおしました。
 /// [ButtonColumn]というWidgetを縦に並べて実装しています。
@@ -103,7 +103,7 @@ class ButtonSection extends StatelessWidget {
   }
 }
 
-/// [Step3]: Implement the button row
+/// Step3: Implement the button row
 ///
 /// [ButtonColumn]というWidgetをクラスで作成しなおしました。
 /// フィールドには色、アイコン、テキストを持たせて呼び出し側から自由に変更できるようにしています。
@@ -142,7 +142,7 @@ class ButtonColumn extends StatelessWidget {
   }
 }
 
-/// [Step4]: Implement the text section
+/// Step4: Implement the text section
 ///
 /// [TextSection]というWidgetをクラスで作成しなおしました。
 class TextSection extends StatelessWidget {
