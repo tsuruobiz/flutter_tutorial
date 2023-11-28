@@ -1,5 +1,5 @@
 name: flutter_tutorial
-description: "A new Flutter project."
+description: 'A new Flutter project.'
 publish_to: 'none'
 version: 0.1.0
 
@@ -17,3 +17,7 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  # Step5: 画像をアプリケーションから呼び出すためにこちらに追記が必要です。
+  # ref. https://docs.flutter.dev/ui/layout/tutorial#step-5-implement-the-image-section
+  assets:
+    - images/lake.jpg

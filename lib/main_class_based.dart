@@ -164,3 +164,20 @@ class TextSection extends StatelessWidget {
     );
   }
 }
+
+/// Step5: Implement the image section
+///
+/// [LakeImage]というWidgetをクラスで作成しなおしました。
+class LakeImage extends StatelessWidget {
+  const LakeImage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Image.asset(
+      'images/lake.jpg',
+      width: 600,
+      height: 240,
+      fit: BoxFit.cover,
+    );
+  }
+}

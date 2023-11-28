@@ -129,10 +129,18 @@ class MainApp extends StatelessWidget {
           title: const Text('Flutter layout demo'),
         ),
         body: Column(
+          // Step2~4で定義したWidgetを並べていきます。
+          // Column要素のchildrenにWidgetを並べることで、縦に並べることができます。
+          // 上から順番に配置されるため、順番を入れ替えると配置も入れ替わります。
           children: [
-            // Step2~4で定義したWidgetを並べていきます。
-            // Column要素のchildrenにWidgetを並べることで、縦に並べることができます。
-            // 上から順番に配置されるため、順番を入れ替えると配置も入れ替わります。
+            // Step5: 画像を読み込んで一番上に配置します。
+            // ref. https://docs.flutter.dev/ui/layout/tutorial#step-5-implement-the-image-section
+            Image.asset(
+              'images/lake.jpg',
+              width: 600,
+              height: 240,
+              fit: BoxFit.cover,
+            ),
             titleSection,
             buttonSection,
             textSection,
